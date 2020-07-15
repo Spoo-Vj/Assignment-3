@@ -1,0 +1,24 @@
+<html>
+<body>
+
+<p>Are you 21+ ?</p>
+
+<button onclick="myFunction()">Check</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  var r = confirm("Press a button!");
+  if (r == true) {
+    txt = "You can drink";
+  } else {
+    txt = "You cannot drink";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
